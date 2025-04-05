@@ -1,0 +1,17 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="20" fill="#F0F8FF"/>
+  <path d="M100 30C61.3401 30 30 61.3401 30 100C30 138.66 61.3401 170 100 170C138.66 170 170 138.66 170 100C170 61.3401 138.66 30 100 30Z" fill="#E1F5FE"/>
+  <path d="M100 40C66.8629 40 40 66.8629 40 100C40 133.137 66.8629 160 100 160C133.137 160 160 133.137 160 100C160 66.8629 133.137 40 100 40Z" stroke="#0288D1" stroke-width="4"/>
+  <path d="M100 50V100H150" stroke="#0288D1" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M100 100L130 130" stroke="#0288D1" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M85 80H60V140H85V80Z" fill="#81D4FA"/>
+  <path d="M115 60H90V140H115V60Z" fill="#4FC3F7"/>
+  <path d="M145 100H120V140H145V100Z" fill="#29B6F6"/>
+  <path d="M100 170C61.3401 170 30 138.66 30 100" stroke="#01579B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M170 100C170 138.66 138.66 170 100 170" stroke="#01579B" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="100" cy="100" r="8" fill="#01579B"/>
+  <path d="M90 25H110L105 40H95L90 25Z" fill="#0288D1"/>
+  <path d="M90 175H110L105 160H95L90 175Z" fill="#0288D1"/>
+  <path d="M25 90V110L40 105V95L25 90Z" fill="#0288D1"/>
+  <path d="M175 90V110L160 105V95L175 90Z" fill="#0288D1"/>
+</svg>

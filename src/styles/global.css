@@ -1,0 +1,222 @@
+/* Global CSS for Personal Finance Management Application */
+
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-success {
+  color: #388E3C;
+}
+
+.text-error {
+  color: #D32F2F;
+}
+
+.text-warning {
+  color: #FFA000;
+}
+
+.text-info {
+  color: #1976D2;
+}
+
+/* Financial data specific styles */
+.amount-positive {
+  color: #388E3C;
+  font-weight: 500;
+}
+
+.amount-negative {
+  color: #D32F2F;
+  font-weight: 500;
+}
+
+.amount-neutral {
+  color: #757575;
+  font-weight: 500;
+}
+
+/* Animation utilities */
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Accessibility */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Focus styles for keyboard navigation */
+:focus-visible {
+  outline: 2px solid #0288D1;
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9e9e9e;
+}
+
+/* Print styles */
+@media print {
+  body {
+    background-color: white;
+    color: black;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+  
+  .page-break {
+    page-break-before: always;
+  }
+}
+
+/* Custom classes for financial elements */
+.budget-progress-bar {
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.transaction-list-item {
+  transition: background-color 0.2s ease;
+}
+
+.transaction-list-item:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.account-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.account-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.goal-progress-container {
+  position: relative;
+  height: 8px;
+  background-color: #E0E0E0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.goal-progress-bar {
+  position: absolute;
+  height: 100%;
+  background-color: #0288D1;
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+/* Dashboard widget styles */
+.dashboard-widget {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-widget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.dashboard-widget-content {
+  flex: 1;
+  overflow: auto;
+}
+
+/* Responsive utilities */
+@media (max-width: 600px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+  .hide-on-tablet {
+    display: none !important;
+  }
+}
+
+@media (min-width: 961px) {
+  .hide-on-desktop {
+    display: none !important;
+  }
+}
