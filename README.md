@@ -167,15 +167,3 @@ This is a financial management application. The application incorporates automat
 3. Configure environment variables
 4. Run development server with `npm start`
 5. Build for production with `npm run build`
-
-## Contributing
-
-Contributions are welcome! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to participate in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Disclaimer
-
-This application is for educational and personal use only. It is not intended to replace professional financial advice or services. The GitHub Pages version uses simulated data and does not connect to actual financial institutions.
